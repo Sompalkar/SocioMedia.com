@@ -64,7 +64,7 @@ const Form = () => {
 
       if (isLogin) {
         // Handle login request
-        response = await fetch("http://localhost:3001/auth/login", {
+        response = await fetch("https://sociomedia-com.onrender.com/auth/login", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(values),
@@ -76,7 +76,7 @@ const Form = () => {
           formData.append(key, values[key]);
         }
         formData.append("picturePath", values.picture.name);
-        response = await fetch("http://localhost:3001/auth/register", {
+        response = await fetch("https://sociomedia-com.onrender.com/auth/register", {
           method: "POST",
           body: formData,
         });
