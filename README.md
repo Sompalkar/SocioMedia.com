@@ -1,4 +1,4 @@
-  # SocioMedia.com - A Social Media Application
+   # SocioMedia.com - A Social Media Application
 
 SocioMedia.com is a social media application that allows you to connect with your friends and stay connected in a virtual social environment. This project leverages various technologies to create a seamless user experience.
 
